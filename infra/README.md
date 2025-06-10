@@ -22,6 +22,7 @@ This template provisions a Google Cloud Storage bucket in the `US` region and ex
 ## When to Use
 
 Use this template when you:
+
 - Want a quick, minimal example of provisioning GCP resources with Pulumi.
 - Are exploring Pulumi and TypeScript on Google Cloud.
 - Need a starting point for building more complex GCP infrastructure in TypeScript.
@@ -36,10 +37,13 @@ Use this template when you:
 ## Getting Started
 
 Create a new Pulumi project from this template:
+
 ```bash
 pulumi new gcp-typescript
 ```
+
 Follow the interactive prompts to set:
+
 - Project name and description.
 - `gcp:project` (the target Google Cloud project ID).
 
@@ -60,6 +64,7 @@ This template recognizes the following configuration values:
 - `gcp:project` – The Google Cloud project where resources will be deployed.
 
 Set this value in your stack with:
+
 ```bash
 pulumi config set gcp:project YOUR_PROJECT_ID
 ```
@@ -76,6 +81,7 @@ pulumi config set gcp:project YOUR_PROJECT_ID
 ## Getting Help
 
 If you run into issues or have questions, check out:
+
 - Pulumi Documentation: https://www.pulumi.com/docs/
 - Community Slack: https://slack.pulumi.com/
 - GitHub Issues: https://github.com/pulumi/pulumi/issues
