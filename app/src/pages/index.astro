@@ -1,7 +1,12 @@
 ---
-import Chat from '~/components/Chat'
 import Layout from '~/layouts/Layout.astro'
+import Sidebar from '~/components/Sidebar'
+import ChatView from '~/components/ChatView'
 ---
-<Layout>
-	<Chat />
+
+<Layout title="T3 Chat Clone">
+	<main class="flex h-screen w-screen bg-zinc-900 overflow-hidden">
+		<Sidebar client:load />
+		<ChatView client:load />
+	</main>
 </Layout>

@@ -11,19 +11,29 @@
 	"dependencies": {
 		"@astrojs/node": "^9.2.2",
 		"@astrojs/react": "^4.3.0",
+		"@tailwindcss/typography": "^0.5.16",
 		"@tailwindcss/vite": "^4.1.8",
 		"@types/react": "^19.1.7",
 		"@types/react-dom": "^19.1.6",
 		"astro": "^5.9.2",
+		"clsx": "^2.1.1",
 		"drizzle-orm": "^0.44.2",
+		"immer": "^10.1.1",
+		"lucide-react": "^0.514.0",
 		"postgres": "^3.4.7",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
+		"react-markdown": "^10.1.0",
+		"react-syntax-highlighter": "^15.6.1",
+		"rehype-raw": "^7.0.0",
+		"remark-gfm": "^4.0.1",
+		"tailwind-merge": "^3.3.0",
 		"tailwindcss": "^4.1.8",
 		"zod": "^3.25.57",
 		"zustand": "^5.0.5"
 	},
 	"devDependencies": {
+		"@types/react-syntax-highlighter": "^15.5.13",
 		"vite": "^6.3.5"
 	}
 }
